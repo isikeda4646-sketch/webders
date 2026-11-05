@@ -1,0 +1,105 @@
+/* ==========================================================================
+   1. TİPOGRAFİ VE RENKLER (Görsel 9 & 10)
+   ========================================================================== */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(25, 3, 50); /* Görsel 7 ve 9'daki net renk kullanımı */
+    background-color: #d6c2e3; /* Sadece Görsel 9'daki geçerli HEX renk formatı (Açık Mor) */
+    margin: 0;
+    padding: 20px;
+}
+
+/* BAŞLIKLARI VE PARAGRAFLARI ORTALAYAN NOT KODLARI (Görsel 10) */
+h1, h2, h3, p {
+    text-align: center; /* Görsel 10'daki text-align kuralı */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #4a148c; /* Görsel 9 HEX standardı */
+    text-transform: uppercase;
+}
+
+h2 {
+    color: purple; /* Görsel 7 element rengi */
+    border-bottom: 2px solid aqua; /* Görsel 8 kutu kenarlık uyumu */
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: purple;
+}
+
+/* Sloganların Biçimi (Görsel 10) */
+.slogan-ust, .slogan-muzik {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.army-slogan {
+    font-size: 28px;
+}
+
+/* Class Seçici ile Mor Hobi Yazısı (Görsel 7) */
+.mor-yazi {
+    color: purple;
+    font-weight: bold;
+}
+
+header, nav, main, section, footer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(109, 230, 239); /* Görsel 8'deki orijinal örnek kenarlık rengi */
+    padding: 20px;     /* Görsel 8 İç boşluk */
+    margin: 20px;      /* Görsel 8 Dış boşluk */
+    background-color: rgb(241, 237, 240); /* Görsel 8 arka plan */
+}
+
+/* ==========================================================================
+   3. SEÇİCİLER (SELECTORS) UYGULAMASI (Görsel 6 & 7)
+   ========================================================================== */
+#baslik {
+    color: purple; /* Görsel 7 ID Seçici (#) kuralı */
+}
+
+.basliklar {
+    color: blue; /* Görsel 7 Class Seçici (.) kuralındaki orijinal mavi renk */
+}
+
+.vurgulu {
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   4. RESİMLERİ SINIRLANDIRAN SINIF (Görsel 3 & Görsel 7)
+   ========================================================================== */
+.galeri-resim {
+    width: 150px; /* Görsel 8 boyutlandırma mantığına uygun net piksel */
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple; /* Sadece fotoğraflarındaki temel kenarlık kuralları */
+    margin: 10px;
+}
+
+/* ==========================================================================
+   5. TABLO VE FORM TASARIMLARI (Görsel 4 & 5)
+   ========================================================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #ede7f6;
+}
+
+
+
